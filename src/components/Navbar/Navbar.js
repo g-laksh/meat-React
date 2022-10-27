@@ -39,7 +39,7 @@ const Navbar = () => {
             <IconContext.Provider value={{ color: '#fff'}}>
                 <Nav>
                     <NavbarContainer>
-                        <NavLogo to="/">
+                        <NavLogo to="/home">
                             <NavIcon/>
                             C Meat
                         </NavLogo>
@@ -49,13 +49,13 @@ const Navbar = () => {
 
                         <Menu onClick={handleClick} click={click}>
                             <MenuItem>
-                                <MenuLink onClick={closeMenu} to="/">Home</MenuLink>
+                                <MenuLink onClick={closeMenu} to="/home">Home</MenuLink>
                             </MenuItem>
                             <MenuItem>
                                 <MenuLink onClick={closeMenu} to="/about">About</MenuLink>
                             </MenuItem>
                             <MenuItem>
-                                <MenuLink onClick={closeMenu} to="/recipe">Recipes</MenuLink>
+                                <MenuLink onClick={closeMenu} to="/recipe">Items</MenuLink>
                             </MenuItem>
                             <MenuItemBtn>
                                 {button?(
