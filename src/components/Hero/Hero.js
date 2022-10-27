@@ -21,15 +21,16 @@ const Hero = () =>{
                    <HeroContentText>
                         <HeroTitle>
                             <HeroTitleText>Healthy</HeroTitleText>
-                            <HeroTitleText>Meals All Day</HeroTitleText>
+                            <HeroTitleText>Meat All Day</HeroTitleText>
                         </HeroTitle>
                         <HeroSubTitle>For a longer Life</HeroSubTitle>
                         <HeroText>
-                            Get a fresh and tasty recepies that are well balanced and 
+                            Get a fresh and tasty meat that 
                             will improve your wellness, plus add nutrients to your body.
                         </HeroText>
                         <HeroBtn to="/order-now">
-                           <Button primary big bigFont bigRadius>Pick your meals</Button>
+                           <Button primary big bigFont bigRadius>Pick your meat</Button>
+                           
                         </HeroBtn>
                    </HeroContentText>
                </HeroContent>

@@ -71,8 +71,8 @@ flex-direction: column;
 
 export const RecipeFeature = styled.div`
 display: flex;
-justify-content: center;
-align-items: center;
+justify-content: left;
+align-items: left;
 width: 650px;
 height: 320px;
 background-color: #fff;
@@ -146,12 +146,12 @@ transition: all .5s ease;
 export const RecipeFeatureContent = styled.div`
 display: flex;
 flex-direction: column;
-justify-content: center;
+justify-content: left;
 padding: 2rem;
 
 @media only screen and (max-width:500px){
     padding: 2rem;
-    align-items: center;
+    align-items: left;
 }
 `;
 
@@ -185,7 +185,7 @@ padding-bottom: 1.3rem;
 
 export const RecipeFeatureDetails = styled.div`
 display: flex;
-align-items: center;
+align-items: left;
 `;
 
 export const RecipeFeatureItem = styled.div`
@@ -205,7 +205,7 @@ font-size: 1.4rem;
 
 export const RecipeItemContent = styled.div`
 display: flex;
-align-items: center;
+align-items: left;
 `;
 
 export const RecipeItemIcon = styled(HiUsers)`
@@ -318,7 +318,7 @@ font-weight: 400;
 
 export const RecipeCardDetails = styled.div`
 display: flex;
-align-items: center;
+align-items: left;
 margin-top: 1.5rem;
 `;
 

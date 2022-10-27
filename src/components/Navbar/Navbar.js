@@ -41,7 +41,7 @@ const Navbar = () => {
                     <NavbarContainer>
                         <NavLogo to="/">
                             <NavIcon/>
-                            Home Made
+                            C Meat
                         </NavLogo>
                         <MenuIcon onClick={handleClick}>
                             {click ? <BiX/> : <BiMenu/>}

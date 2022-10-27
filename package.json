@@ -1,5 +1,5 @@
 {
-  "homepage": "http://muchirijane.github.io/Home-made-React", 
+  "homepage": "http://muchirijane.github.io/Home-made-React",
   "name": "home-made-react",
   "version": "0.1.0",
   "private": true,
@@ -10,9 +10,9 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-icons": "^3.11.0",
-    "react-router-dom": "^5.2.0",
+    "react-router-dom": "^5.3.4",
     "react-scripts": "4.0.0",
-    "styled-components": "^5.2.1",
+    "styled-components": "^5.3.6",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
