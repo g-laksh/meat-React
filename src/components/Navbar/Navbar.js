@@ -60,7 +60,7 @@ const Navbar = () => {
                             <MenuItemBtn>
                                 {button?(
                                     <MenuLinkBtn to="/order-now">
-                                        <Button primary>Order Now</Button>
+                                        <Button primary>Buy Now</Button>
                                     </MenuLinkBtn>
                                 ): (
                                     <MenuLinkBtn to="/order-now">

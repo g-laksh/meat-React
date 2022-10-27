@@ -26,12 +26,15 @@ function Meals() {
                     <MealsContent>
                         
                         <MealsContentText>
+                           
                         Eat Fresh Stay Fresh
                         </MealsContentText>
                         <MealsContentTitle>REFRESH</MealsContentTitle>
+                        
+                        
                        
                         <MealsContentBtn to='/order-now'>
-                            <Button big bigFont bigRadius>Order Now</Button>
+                            <Button big bigFont bigRadius>Buy Now</Button>
 
                         </MealsContentBtn>
                     </MealsContent>

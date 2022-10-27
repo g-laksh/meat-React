@@ -96,7 +96,7 @@ height: 80px;
 
 export const MenuLink = styled(Link)`
 text-decoration: none;
-font-weight: bold;
+
 font-size: 2rem;
 color: #fff;
 display: flex;

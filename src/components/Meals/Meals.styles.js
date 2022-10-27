@@ -3,13 +3,16 @@ import {BiCheck} from 'react-icons/bi';
 import {Link} from 'react-router-dom';
 
 export const MealsContainer = styled.section`
+width: 100%;
 display: flex;
 align-items: center;
 `;
 
 export const MealsWrapper = styled.div`
 display: flex;
-justify-content: center;
+width: 100%;
+justify-content: space-evenly;
+padding-right: 45rem;
 align-items: flex-start;
 background-color: #fff;
 overflow: hidden;
@@ -63,9 +66,9 @@ export const Img = styled.img`
 `;
 
 export const MealsContent = styled.div`
-padding: 0 10rem;
+// padding: 0 30rem;
 @media only screen and (min-width:1800px){
-    margin: 0 20rem;
+   
 }
 
 @media only screen and (max-width: 1300px){
@@ -93,6 +96,7 @@ export const MealsContentText = styled.p`
 font-size: 1.8rem;
 @media only screen and (max-width: 1000px) {
     font-size: 2rem;
+    
 }
 `;
 
