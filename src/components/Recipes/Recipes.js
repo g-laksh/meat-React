@@ -46,6 +46,7 @@ const Recipes = () => {
                             <RecipeBtn to='/easy-preps'>
                                 <OutlineButton big bigFont bigRadius>Egg</OutlineButton>  
                             </RecipeBtn>
+                           
                         </RecipeTabContainer>
                         <RecipeCardWrapper>
                             
@@ -97,9 +98,24 @@ const Recipes = () => {
                                         </RecipeCardContent>
 
                                     </RecipeCard>
-                                </RecipeSmallCards>
 
-                            </RecipeCardSection>
+                                </RecipeSmallCards>
+                                
+                                <RecipeSmallCards>
+                                    <RecipeCard>
+                                        {/* <Img src={PizzaImg} alt="Pizza Recipe"/> */}
+                                        <RecipeCardContent>
+                                            <RecipeCardHeading>
+                                             Fertilizers
+                                            </RecipeCardHeading>
+                                           
+                                        </RecipeCardContent>
+
+                                    </RecipeCard>
+                                    </RecipeSmallCards>
+                               
+                                    </RecipeCardSection>
+                           
                             
                         </RecipeCardWrapper>
                     </RecipeContentContainer>

@@ -12,16 +12,7 @@ import {
     RecipeTabContainer,
     RecipeBtn,
     RecipeCardWrapper,
-    RecipeFeature,
-    RecipeFeatureContent,
-    RecipeFeatureTitle,
-    RecipeFeatureText,
-    RecipeFeatureDetails,
-    RecipeFeatureItem,
-    RecipeItemTitle,
-    RecipeItemContent,
-    RecipeItemIcon,
-    RecipeItemText,
+  
     RecipeCardSection,
     RecipeSmallCards,
     RecipeCard,
@@ -38,7 +29,8 @@ import {
 
 
 
-} from './Recipes.styles';
+} from './Admin.styles';
+
 const Recipes = () => {
     return (
         <div>
@@ -59,17 +51,17 @@ const Recipes = () => {
                                             </RecipeCardHeading>
                                             <RecipeCardDetails>
                                                 <RecipeCardItems>
-                                                        <RecipeCardTitle>Serving</RecipeCardTitle>
+                                                        <RecipeCardTitle>Quantity</RecipeCardTitle>
                                                         <RecipeCardItem>
                                                             <RecipeCardIcon/>
-                                                            <RecipeCardText>2</RecipeCardText>
+                                                            <RecipeCardText>50kg</RecipeCardText>
                                                         </RecipeCardItem>
 
                                                     </RecipeCardItems>
                                              
                                                 <RecipeCardItems>
-                                                    <RecipeCardTitle>Difficulty level</RecipeCardTitle>
-                                                    <RecipeCardText>20%</RecipeCardText>
+                                                    <RecipeCardTitle>Price</RecipeCardTitle>
+                                                    <RecipeCardText>8000</RecipeCardText>
                                                 </RecipeCardItems>
 
                                             </RecipeCardDetails>
@@ -84,17 +76,17 @@ const Recipes = () => {
                                             </RecipeCardHeading>
                                             <RecipeCardDetails>
                                                 <RecipeCardItems>
-                                                        <RecipeCardTitle>Serving</RecipeCardTitle>
+                                                        <RecipeCardTitle>Quantity</RecipeCardTitle>
                                                         <RecipeCardItem>
                                                             <RecipeCardIcon/>
-                                                            <RecipeCardText>2</RecipeCardText>
+                                                            <RecipeCardText>50</RecipeCardText>
                                                         </RecipeCardItem>
 
                                                     </RecipeCardItems>
                                               
                                                 <RecipeCardItems>
-                                                    <RecipeCardTitle>Difficulty level</RecipeCardTitle>
-                                                    <RecipeCardText>10%</RecipeCardText>
+                                                    <RecipeCardTitle>Price</RecipeCardTitle>
+                                                    <RecipeCardText>400</RecipeCardText>
                                                 </RecipeCardItems>
 
                                             </RecipeCardDetails>
@@ -111,7 +103,7 @@ const Recipes = () => {
                                             </RecipeCardHeading>
                                             <RecipeCardDetails>
                                                 <RecipeCardItems>
-                                                        <RecipeCardTitle>Serving</RecipeCardTitle>
+                                                        <RecipeCardTitle>Quantity</RecipeCardTitle>
                                                         <RecipeCardItem>
                                                             <RecipeCardIcon/>
                                                             <RecipeCardText>2</RecipeCardText>
@@ -120,8 +112,8 @@ const Recipes = () => {
                                                     </RecipeCardItems>
                                                
                                                 <RecipeCardItems>
-                                                    <RecipeCardTitle>Difficulty level</RecipeCardTitle>
-                                                    <RecipeCardText>20%</RecipeCardText>
+                                                    <RecipeCardTitle>Price</RecipeCardTitle>
+                                                    <RecipeCardText>20</RecipeCardText>
                                                 </RecipeCardItems>
 
                                             </RecipeCardDetails>
@@ -136,17 +128,17 @@ const Recipes = () => {
                                             </RecipeCardHeading>
                                             <RecipeCardDetails>
                                                 <RecipeCardItems>
-                                                        <RecipeCardTitle>Serving</RecipeCardTitle>
+                                                        <RecipeCardTitle>Quantity</RecipeCardTitle>
                                                         <RecipeCardItem>
                                                             <RecipeCardIcon/>
-                                                            <RecipeCardText>2</RecipeCardText>
+                                                            <RecipeCardText>50</RecipeCardText>
                                                         </RecipeCardItem>
 
                                                     </RecipeCardItems>
                                                 
                                                 <RecipeCardItems>
-                                                    <RecipeCardTitle>Difficulty level</RecipeCardTitle>
-                                                    <RecipeCardText>10%</RecipeCardText>
+                                                    <RecipeCardTitle>Price</RecipeCardTitle>
+                                                    <RecipeCardText>500</RecipeCardText>
                                                 </RecipeCardItems>
 
                                             </RecipeCardDetails>

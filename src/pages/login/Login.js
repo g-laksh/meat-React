@@ -1,12 +1,16 @@
-import React , {useState , useEffect} from 'react';
-import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
+import {BrowserRouter as Router,Switch,Route, useHistory } from "react-router-dom";
 import Home from '../Home/Home';
+
 import  './styles.css';
 const Login = ({submit}) => {
+    const history = useHistory();
 
    
     const handleFormSubmit =(event) => {
-        <Route exact path="/home" exact component={Home}/>
+        history.push("/home")
+    };
+    const handleFormSbmit =(event) => {
+        history.push("/admin")
     };
     
   return (
@@ -28,13 +32,24 @@ const Login = ({submit}) => {
                     <input type='password' className='input' name='password' />
                    
                     </div>
-                <div>
+                <div class="row">
+                <div class="re">
                     <button className='submit' onClick={handleFormSubmit}>Login</button>
+                    
                 </div>
+                {/* <div class="re">
+                    <button className='submit' onClick={handleFormSbmit}>Login as Admin</button>
+                    
+                </div> */}
+                </div>
+
             </form>
         </div>
+        
     </div>
+    
   )
+  
 }
 
 export default Login;
